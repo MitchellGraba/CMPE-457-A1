@@ -2,7 +2,7 @@
 #
 # You'll need Python 3 and must install these packages:
 #
-#   numpy, PyOpenGL, Pillow, GLFW
+# numpy, PyOpenGL, Pillow, GLFW
 #
 # Note that file loading and saving (with 'l' and 's') are not
 # available if 'haveTK' below is False.  If you manage to install
