@@ -51,7 +51,7 @@ windowWidth = 600  # window dimensions
 windowHeight = 800
 
 imgDir = 'images'
-imgFilename = 'pup.jpg'
+imgFilename = 'ape.jpg'
 
 loadedImage = None  # image originally loaded
 currentImage = None  # image being displayed
@@ -310,7 +310,7 @@ def mouseButtonCallback(window, btn, action, keyModifiers):
     elif action == glfw.RELEASE:
 
         button = None
-        # added line here to update cumulative transform var when mouse is released
+        # update cumulative transform var when mouse is released by multiplying the last transform applied
         cumulativeTransform = lastTransform.dot(cumulativeTransform)
         print("SAVED TRANSFORM")
 
