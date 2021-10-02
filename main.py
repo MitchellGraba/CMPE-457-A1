@@ -13,6 +13,7 @@
 # colourspace, and that you should manipulate only the Y component
 # of each pixel when doing intensity changes.
 
+# Mitchell Graba 20056482
 
 import math
 import sys
@@ -51,7 +52,7 @@ windowWidth = 600  # window dimensions
 windowHeight = 800
 
 imgDir = 'images'
-imgFilename = 'ape.jpg'
+imgFilename = 'pup.jpg'
 
 loadedImage = None  # image originally loaded
 currentImage = None  # image being displayed
